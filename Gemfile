@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '>= 3.2.1'
+gem 'rails', '>= 3.2.6'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -8,7 +8,7 @@ gem 'rails', '>= 3.2.1'
 gem 'sqlite3'
 
 gem 'json'
-gem 'chanko', :git => 'git://github.com/cookpad/chanko.git', :ref => '95aff1afe11a8c98d03967f8f4d9b14572fb4e63'
+gem 'chanko', :git => 'git://github.com/cookpad/chanko.git', :ref => 'dbab0f8e9c53fa30e8d453a6bcd7e99504cc3982'
 
 # Gems used only for assets and not required
 # in production environments by default.

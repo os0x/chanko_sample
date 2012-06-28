@@ -4,7 +4,7 @@
 %div.create_form{:style => "display: #{@article && @article.errors.any? ? "display" : "none"};"}
   - form = Proc.new do |f|
     - if @article && @article.errors.any?
-      %ul
+      %ul.errors
         - @article.errors.full_messages.each do |msg|
           %li
             = msg
