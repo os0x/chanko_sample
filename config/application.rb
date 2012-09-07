@@ -9,6 +9,8 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+ActiveSupport::Deprecation.silenced = true
+
 module ChankoSample
   class Application < Rails::Application
     config.assets.append_path File.join(root, "chankos")
