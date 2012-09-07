@@ -22,6 +22,7 @@ group :test, :development do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'debugger'
+  gem 'konacha'
 end
 
 group :test do
