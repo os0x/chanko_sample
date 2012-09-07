@@ -21,8 +21,15 @@ end
 group :test, :development do
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'debugger'
 end
 
+group :test do
+  gem 'capybara'
+  gem 'capybara-webkit'
+  gem 'headless'
+  gem 'database_cleaner'
+end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
